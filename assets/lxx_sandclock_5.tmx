@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="33" height="43" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="wtile" tilewidth="16" tileheight="16">
+  <image source="winter_tiles.png" width="384" height="608"/>
+  <tile id="50">
+   <properties>
+    <property name="type" value="snow"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="type" value="snow"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="type" value="snow"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="type" value="snow"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="h_ground" width="33" height="43">
+  <data encoding="base64" compression="zlib">
+   eJztl9ltwzAQRNmTDDdBgU2wsZQaf3CMl4eV4yCwlY8QIHRxd2ZPUq39j//xs3G9zdnax7Pz+kIe2zdrtrXulWMunLFmw/078I94vBu/4nEGPnmME/HJ4y/gnxmH1OmZ+chxRl1W45396dF4JY9n8H/Dg/W132a/zcu6znbfr+79YD6Y/H5deubSS4ysuazn4NGOvq6Z0TWWDOU2yAzpjix1R35Ab8d6+ib+N4fgRkfuozc40UH88CPfCQxzzkhMIhfOtDn340BHbN8KGfqhA88caHvW0uaBd+YQ+xijHbqYM+RE/zEelMt9uHV8O4orfUFd4VXFL7Gj7YxFxS2cWQvkY96V773WeUQ/0DbWU3haN+sgHKrew3oPBm2nbxhr1k90Mzfsd+a0YxAMXlmDtJO50+CHYBE/3KJzaH1sIQ/GlXlEP1UjnI0fWeeWa6bK54nn0Wrs+KXpe/CZP/aDY36Uz+RVjcTavFjvzmHWGJ8vek9uPDclVh3r2W9YH46jZRMD1ir7HfmFA3PFPX/q/d6+1gFrh/VvnKoHsgam9JIT5W0v3zHX+J19xb2IveyC6Z7f9T76uD+4j7hO7H/jxA/kQD9Qhljk4J5T9U3mD88J4eAYuqd6X/b5J7LOI9qd56ovJRbk4HOOc4h2Ml78zphXPazicCTn/uNaYxyrHsx9lGc9xiUcyI893X7cWu1P+sG5zz2aOPnWCr3uad5fg+ceUtWuY0d95MBzF9fFHtcLz0fsTVzPyZzpuk8+UN71RlsZM5+HuH/6nOmzScf65MORXf6nyLX6h9il/xMD5+8u
+  </data>
+ </layer>
+ <objectgroup name="game">
+  <object type="Start" x="96" y="256" width="16" height="16"/>
+  <object type="key" gid="26" x="288" y="208"/>
+  <object type="exit" gid="2" x="368" y="272"/>
+  <object type="key" gid="26" x="272" y="448"/>
+  <object type="key" gid="26" x="336" y="352"/>
+ </objectgroup>
+</map>

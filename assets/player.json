@@ -1,0 +1,27 @@
+{
+    "image" : "player.png",
+    "width" : 16,
+    "height": 16,
+    "animation" : {
+        "idle" : {
+            "speed" : 3,
+            "looped" : "true",
+            "f" : [0, 17]
+        },
+        "walk" : {
+            "speed" : 8,
+            "looped" : "true",
+            "f" : [0, 1, 2, 3]
+        },
+        "dig" : {
+            "speed" : 4,
+            "looped" : "true",
+            "f" : [8, 9, 10]
+        },
+        "die" : {
+            "speed" : 4,
+            "looped" : "false",
+            "f" : [24,25,26,27,28]
+        }
+    }
+}
