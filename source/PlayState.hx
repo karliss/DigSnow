@@ -116,7 +116,7 @@ public var virtualPad:FlxVirtualPad;
 		add(nameText);
 		
 #if mobile
-	virtualPad = new FlxVirtualPad(FULL, NONE);
+	virtualPad = new FlxVirtualPad(DPadMode.LEFT_RIGHT, ActionMode.A_B );
 	virtualPad.alpha = 0.5;
 	add(virtualPad);
 #end

@@ -63,8 +63,8 @@ class Player extends Character
 		_right = FlxG.keys.anyPressed(["RIGHT", "D"]);
 
 		#if mobile
-		_up = _up || game.virtualPad.buttonUp.status == FlxButton.PRESSED;
-		_down = _down || game.virtualPad.buttonDown.status == FlxButton.PRESSED;
+		_up = _up || game.virtualPad.buttonA.status == FlxButton.PRESSED;
+		_down = _down || game.virtualPad.buttonB.status == FlxButton.PRESSED;
 		_left  = _left || game.virtualPad.buttonLeft.status == FlxButton.PRESSED;
 		_right = _right || game.virtualPad.buttonRight.status == FlxButton.PRESSED;
 		#end
